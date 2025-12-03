@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "it-creators-13-project-eco-tote",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/it-creators-13-project-eco-tote/",
     "preview": "vite preview"
   },
   "devDependencies": {
