@@ -61,14 +61,14 @@
   background-color: transparent;
   outline: transparent;
 }
+
+.support-form input::placeholder {
+  color: rgba(3, 10, 6, 0.6);
+}
 .support-form-input:invalid {
   color: #d64040;
   border: 1px solid #d64040;
 }
-.support-form input::placeholder {
-  color: rgba(3, 10, 6, 0.6);
-}
-
 .support-form-textarea {
   font-family: 'Fira Sans', sans-serif;
   font-weight: 400;
