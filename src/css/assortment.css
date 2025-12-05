@@ -1,0 +1,170 @@
+/* assortment */
+
+/* li {
+  overflow: hidden;
+  
+} */
+
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.section-assortment {
+  padding: 32px 0;
+  background: #ebf8ed;
+}
+
+.assortment-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 32px;
+}
+
+.assortment-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 40px;
+}
+
+.assortment-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.assortment-thumb {
+  overflow: hidden;
+  border-radius: 32px;
+  width: 288px;
+}
+
+.assortment-card-content {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline; */
+  padding: 16px 0;
+}
+
+.assortment-title-bag {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+}
+
+.assortment-desc-bag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+  margin-bottom: 8px;
+}
+
+.assortment-price-bag {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  color: #030a06;
+}
+
+.assortment-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #030a06;
+  border: 1px solid #030a06;
+  border-radius: 6px;
+  padding: 8px 20px;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 64px 0;
+  }
+
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+
+  .assortment-list {
+    flex-direction: row;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .assortment-card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .assortment-thumb {
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+    padding: 0 64px;
+  }
+  .assortment-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+    margin-bottom: 32px;
+  }
+
+  .assortment-list {
+    flex-direction: row;
+    row-gap: 64px;
+  }
+
+  .assortment-card {
+    flex-basis: calc((100% - 72px) / 4);
+  }
+
+  .assortment-thumb {
+    width: 310px;
+  }
+
+  .assortment-btn {
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .assortment-btn:hover,
+  .assortment-btn:focus {
+    border-color: rgba(3, 10, 6, 0.5);
+    /* color: rgba(3, 10, 6, 0.5); */
+    color: #030a06;
+  }
+  .assortment-btn:active {
+    border-color: rgba(17, 57, 22, 0.6);
+    /* color: rgba(17, 57, 22, 0.6); */
+    color: #113916;
+  }
+}
