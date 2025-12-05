@@ -101,14 +101,15 @@
   height: 50px;
   background: #030a06;
 }
-.support-form-btn:hover {
-  background: #1c221e;
-  opacity: 0.5;
-}
 .support-form-btn:active {
   background: #113916;
   opacity: 0.5;
 }
+.support-form-btn:hover {
+  background: #1c221e;
+  opacity: 0.5;
+}
+
 .support-form-btn:disabled {
   background: #030a06;
   opacity: 0.2;
