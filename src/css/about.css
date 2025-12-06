@@ -6,7 +6,7 @@
     padding-left: 16px;
     padding-right: 16px;
 
-    background-image: url("../img/about/bg-feature-mobile.jpg");
+    background-image: url("/img/about/bg-feature-mobile.jpg");
     background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: darken;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 
 @media screen and (min-resolution: 192dpi) {
 .section-about {
-        background-image: url("../img/about/bg-feature-mobile@2x.jpg");
+        background-image: url("/img/about/bg-feature-mobile@2x.jpg");
     }
 }
 
@@ -67,7 +67,7 @@
         padding-top: 80px;
         padding-bottom: 80px;
 
-        background-image: url("../img/about/bg-feature-tublet.jpg");
+        background-image: url("/img/about/bg-feature-tublet.jpg");
     }
 
 .container-about {
@@ -96,7 +96,7 @@
 
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
 .section-about {
-        background-image: url("../img/about/bg-feature-tublet@2x.jpg");
+        background-image: url("/img/about/bg-feature-tublet@2x.jpg");
     }
 }
 
@@ -105,7 +105,7 @@
         padding-top: 112px;
         padding-bottom: 94px;
 
-        background-image: url("../img/about/bg-feature-desktop.jpg");
+        background-image: url("/img/about/bg-feature-desktop.jpg");
     }
 
 /* Основний великий заголовок */
@@ -121,7 +121,7 @@
 
 @media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
 .section-about {
-        background-image: url("../img/about/bg-feature-desktop@2x.jpg");
+        background-image: url("/img/about/bg-feature-desktop@2x.jpg");
     }
 }
 
