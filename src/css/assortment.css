@@ -2,12 +2,12 @@
 
 .container {
   max-width: 320px;
-  padding: 0 16px;
+  /* padding: 0 16px; */
   margin: 0 auto;
 }
 
 .section-assortment {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .assortment-title {
@@ -22,7 +22,8 @@
 .assortment-list {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 40px;
+  /* row-gap: 40px; */
+  gap: 24px;
 }
 
 .assortment-card {
@@ -88,7 +89,7 @@
 
 @media screen and (min-width: 768px) {
   .section-assortment {
-    padding: 64px 0;
+    padding: 64px 32px;
   }
 
   .container {
@@ -107,14 +108,19 @@
   }
 
   .assortment-thumb {
-    width: 340px;
+    /* width: 340px; */
+    width: 100%;
+    /* max-width: 310px; */
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1440px) {
+  /* .section-assortment {
+    padding: 64px 64px;
+  } */
   .container {
     max-width: 1440px;
-    /* padding: 0 64px; */
+    padding: 0 64px;
   }
 
   .assortment-title {
@@ -127,11 +133,12 @@
 
   .assortment-card {
     flex-basis: calc((100% - 72px) / 4);
+    min-width: 0;
   }
 
-  .assortment-thumb {
+  /* .assortment-thumb {
     width: 310px;
-  }
+  } */
 
   .assortment-btn {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
