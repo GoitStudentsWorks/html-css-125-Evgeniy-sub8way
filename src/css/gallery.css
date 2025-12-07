@@ -24,16 +24,15 @@ ul {
     text-align: center;
     color: #030a06;
     font-family: "Comfortaa", sans-serif;
-    text-align: center;
     padding-bottom: 16px;
 }
-
 .gallery-description {
     font-weight: 400;
     font-size: 18px;
     line-height: 160%;
     text-align: center;
     color: #030a06;
+    font-family: "Fira Sans", sans-serif;
     padding-bottom: 32px;
 }
 .gallery-list {
@@ -59,19 +58,31 @@ ul {
         padding-top: 64px;
         padding-bottom: 24px;
     }
-
+    .gallery-description {
+        flex-wrap: nowrap;
+    }
     .gallery-list {
+        max-width: 704px;
+        height: 1062px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         flex-direction: column;
         gap: 24px;
         align-self: center;
         justify-content: center;
         padding-bottom: 64px;
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
     }
-    .gallery-item {
-        width: 100%;
-        padding: 24px;
+    .gallery-item-view {
+        width: 340px;
+        height: 700px;
     }
-
+    .gallery-item-view:first-child {
+        order: 4;
+        height: 340px;}
+    .gallery-item-view:last-child {
+        order: 1;
+        height: 340px;}
 }
