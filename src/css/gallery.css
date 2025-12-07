@@ -50,7 +50,7 @@ ul {
     flex-direction: column;
     padding-block: 0px 32px;
     padding-inline: 0px;
-    width: 100%;
+    /* width: 100%; */
     height: 288px;
 }
 .gallery-item-view {
@@ -81,20 +81,10 @@ ul {
         max-width: 100%;
         height: auto;
     }
-    .item 1 {
+    .gallery-item-view:first-child {
         order: 4;
-        height: 340px;
     }
-    .item 2 {
-        order: 2;
-        height: 700px;
-    }
-    .item 3 {
-        order: 3;
-        height: 700px;
-    }
-    .item 4 {
+    .gallery-item-view:last-child {
         order: 1;
-        height: 340px;
     }
 }
