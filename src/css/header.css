@@ -44,9 +44,16 @@
   .burger {
     display: none;
   }
+
+  /* .section {
+    padding: 0 64px;
+  }
+
+  .section-header {
+  } */
   .container {
     max-width: 1400px;
-    /* padding: 0 64px; */
+    padding: 0 64px;
   }
 
   .header-nav {
