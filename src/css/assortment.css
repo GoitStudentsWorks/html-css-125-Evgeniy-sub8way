@@ -1,13 +1,17 @@
 /* assortment */
 
-.container {
+/* .container {
   max-width: 320px;
-  /* padding: 0 16px; */
+  
   margin: 0 auto;
-}
+} */
 
 .section-assortment {
-  padding: 32px 16px;
+  padding: 32px 0;
+}
+
+.container-assortment {
+  padding: 0 16px;
 }
 
 .assortment-title {
