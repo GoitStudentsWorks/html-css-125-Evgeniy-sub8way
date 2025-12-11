@@ -126,12 +126,6 @@
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.link-logo:hover,
-.link-logo:focus {
-  transform: scale(1.3);
-  opacity: 0.8;
-}
-
 .mobile-menu-address-link,
 .address-link,
 .mobile-menu-nav-link,
@@ -202,6 +196,12 @@
     padding: 0 32px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .link-logo:hover,
+  .link-logo:focus {
+    transform: scale(1.3);
+    opacity: 0.8;
   }
 }
 
