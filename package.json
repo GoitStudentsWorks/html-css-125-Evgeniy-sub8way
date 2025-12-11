@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/it-creators-13-project-eco-tote/",
+    "build": "vite build --base=/html-css-125-Evgeniy-sub8way/",
     "preview": "vite preview"
   },
   "devDependencies": {
